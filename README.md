@@ -2,7 +2,11 @@
 Creating a Generative Adversarial Network (GAN) involves training a generator and a discriminator simultaneously, where the generator learns to generate realistic data while the discriminator learns to distinguish between real and generated data.
 
 ## ABOUT
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel bookin A Generative Adversarial Network (GAN) is a deep learning framework consisting of two neural networks, the generator and the discriminator, engaged in a two-player minimax game. The generator generates synthetic data samples, while the discriminator evaluates the authenticity of these samples compared to real data. Through adversarial training, the generator improves its ability to generate increasingly realistic data, while the discriminator becomes better at distinguishing real from fake data. GANs are widely used in various applications such as image generation, data augmentation, and anomaly detection
+This project is focused on developing a GAN-based deepfake detection system. The primary goal is to create a tool capable of identifying and distinguishing between real and AI-generated (deepfake) content, specifically in videos or images. With the rise of manipulated media, deepfake detection has become crucial for media integrity, security, and user trust. GANs (Generative Adversarial Networks) play a dual role in this project: while they’re commonly used to generate realistic fake images and videos, their underlying mechanics can also aid in detecting such synthetic content.
+
+The project involves training a model to recognize subtle inconsistencies that often appear in deepfake media, such as unnatural artifacts, irregular facial expressions, or abnormal pixel patterns. The system's workflow typically involves preprocessing input videos or images, feeding them into the detection model, and outputting a probability score or classification indicating the likelihood of a deepfake.
+
+The end result is a web-based application where users can upload videos for deepfake detection, aimed at empowering individuals, media companies, and organizations to protect themselves from deceptive content.
 
 ## FEATURES
 
